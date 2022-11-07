@@ -1,0 +1,27 @@
+[package]
+name = "plotview"
+version = "0.1.0"
+edition = "2021"
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[dependencies]
+# General rust std extensions
+anyhow = "1.0.58"
+
+# Cli
+clap = { version = "4.0.20", features = ["derive"] }
+
+# GUI
+egui = "0.19"
+egui-wgpu = "0.19"
+egui-winit = "0.19"
+
+# Image manipulation
+image = "0.24.4"
+
+# Windowing and graphis
+winit = "0.27.2"
+pixels = "0.10.0"
+tiny-skia = "0.6.0"
