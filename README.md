@@ -11,4 +11,6 @@ window
 cargo r -- input.pdf
 ```
 
+![](https://yourimageshare.com/ib/iUS82oso04.webp)
+
 
